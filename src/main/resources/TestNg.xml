@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.bridgelabz.KeyWord.extend.ExtendReportListener"></listener>
+    </listeners>
+
+    <test name="Bewakoof page  Object Model Test Suite">
+        <classes>
+            <class name="com.bridgelabz.KeyWord.HomePageTest"/>
+            <class name="com.bridgelabz.KeyWord.LoginPageTest"/>
+
+        </classes>
+    </test>
+</suite>
